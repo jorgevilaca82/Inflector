@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflector", "Inflector\Inflector.csproj", "{319EF659-7E00-4498-AE2E-A05D97C5F00D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{099E1208-9B4F-4267-862F-60143E84BC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InflectionTests", "InflectionTests\InflectionTests.csproj", "{0953ACCE-E942-49F3-9F88-585A25C2147C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{319EF659-7E00-4498-AE2E-A05D97C5F00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319EF659-7E00-4498-AE2E-A05D97C5F00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319EF659-7E00-4498-AE2E-A05D97C5F00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319EF659-7E00-4498-AE2E-A05D97C5F00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099E1208-9B4F-4267-862F-60143E84BC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099E1208-9B4F-4267-862F-60143E84BC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099E1208-9B4F-4267-862F-60143E84BC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099E1208-9B4F-4267-862F-60143E84BC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0953ACCE-E942-49F3-9F88-585A25C2147C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0953ACCE-E942-49F3-9F88-585A25C2147C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0953ACCE-E942-49F3-9F88-585A25C2147C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0953ACCE-E942-49F3-9F88-585A25C2147C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
