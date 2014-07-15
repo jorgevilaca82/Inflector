@@ -74,6 +74,10 @@ namespace InflectionServices
 
         public string ApplyInflection(string word, InflectionRules rules)
         {
+            string _s = TryUncountableOrIrregular(word);
+            if (!String.IsNullOrEmpty(_s))
+                return _s;
+
             IEnumerable<string> ruleKeys = rules.Keys.Reverse();
             foreach (string rule in ruleKeys)
             {
@@ -105,27 +109,17 @@ namespace InflectionServices
 
         public string Pluralize(string word)
         {
-            string _s = TryUncountableOrIrregular(word);
+            string _s = ApplyInflection(word, PluralRules);
             if (!String.IsNullOrEmpty(_s))
                 return _s;
-
-            _s = ApplyInflection(word, PluralRules);
-            if (!String.IsNullOrEmpty(_s))
-                return _s;
-
             return word;
         }
 
         public string Singularize(string word)
         {
-            string _s = TryUncountableOrIrregular(word);
+            string _s = ApplyInflection(word, SingularRules);
             if (!String.IsNullOrEmpty(_s))
                 return _s;
-
-            _s = ApplyInflection(word, SingularRules);
-            if (!String.IsNullOrEmpty(_s))
-                return _s;
-
             return word;
         }
     
